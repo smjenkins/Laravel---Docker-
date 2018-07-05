@@ -20,5 +20,10 @@ Instructions:
 go to the following URL: http://localhost.  You can see that our Laravel 5.6 is running on that local server
 4. We can access the phpMyAdmin at 8080 port on the browser. http://localhost:8080.  If you get any error, please verify your mysql server, database name, username, and password.  Create the database, whichever the name, you have written inside the .env file.
 
+Troubleshooting: 
+If you are hitting errors, delete the "laradock" file and in terminal run "git clone https://github.com/Laradock/laradock.git
+", then "cd laradock".   Change the name of "env.example" file to ".env" and pick back up at instruction 3 above..(docker-compose up -d nginx mysql phpmyadmin redis workspace)
+
+
 
 
