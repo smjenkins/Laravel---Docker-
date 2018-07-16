@@ -17,8 +17,11 @@ Instructions:
 ", locate the listed PID number and then enter "kill -9 PIDNUMBERHERE" to end it with fire!
 3. cd laradock
 3.1 Then enter "docker-compose up -d nginx mysql phpmyadmin redis workspace".  Go get coffee.  If you get an error, enter each command individually such as "docker-compose up -d nginx" docker-compose up -d  mysql" docker-compose up -d phpmyadmin" etc. 
-go to the following URL: http://localhost.  You can see that our Laravel 5.6 is running on that local server
-4. We can access the phpMyAdmin at 8080 port on the browser. http://localhost:8080.  If you get any error, please verify your mysql server, database name, username, and password.  Create the database, whichever the name, you have written inside the .env file.
+4. cd ..
+then, php artisan serve
+go to the following URL: http://localhost.  You can see that our Laravel 5.6 is running.
+4.1 We can access the phpMyAdmin at 8080 port on the browser. http://localhost:8080.  If you get any error, please verify your mysql server, database name, username, and password.  Create the database, whichever the name, you have written inside the .env file.
+
 
 Troubleshooting: 
 If you are hitting errors, delete the "laradock" file and in terminal run "git clone https://github.com/Laradock/laradock.git
